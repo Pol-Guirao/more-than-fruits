@@ -1,0 +1,2 @@
+To connect the application to other sources and get external information I would use an API.
+With REST I would create a class GET to save the data into our ddbb. If it's required to use some kind of authentication it would be added to the request.

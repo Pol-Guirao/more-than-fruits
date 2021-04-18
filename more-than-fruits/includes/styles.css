@@ -1,0 +1,96 @@
+*{
+  font-family:verdana;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.button{
+    display:inline-block;
+    color:#444;
+    border:1px solid #CCC;
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  grid-column-gap: 50px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+.item1 {
+  grid-row: 1;
+}
+.item2 {
+  grid-row: 2;
+}
+.item3 {
+  grid-row: 3;
+}
+.item4 {
+  grid-column: 2 / 4;
+  grid-row: 1 / 8 ;
+}
+
+#message{
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.wrapper {
+    position: relative;
+}
+.prefix {
+    padding-left: 48px;
+}
+.wrapper span {
+    position: absolute;
+    left: 2px;
+}
+
+#logout{
+  float: right;
+  padding: 20px;
+}
